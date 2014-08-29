@@ -2,5 +2,6 @@
   "redis-brain.coffee",
   "shipit.coffee",
   "ruby.coffee",
-  "github-activity.coffee"
+  "github-activity.coffee",
+  "jenkins.coffee"
 ]

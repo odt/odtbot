@@ -4,4 +4,6 @@ export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 export HUBOT_NAME="bot"
 export HUBOT_IDOBATA_API_TOKEN=<idobataのapiトークン>
 export HUBOT_GITHUB_TOKEN=<githubのapiトークン>
+export HUBOT_JENKINS_URL=<jenkinsのURL>
+export NODE_TLS_REJECT_UNAUTHORIZED=0
 exec node_modules/.bin/hubot --adapter idobata "$@"
